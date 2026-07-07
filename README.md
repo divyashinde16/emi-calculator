@@ -1,6 +1,14 @@
 # Project Setup Instructions
 
-Follow the steps below to set up and run the project.
+## Requirements
+
+- PHP 8.2 or later
+- Composer
+- Laravel 12 or later
+- MySQL (optional)
+
+
+# Follow the steps below to set up and run the project.
 
 ## 1. Clone the repository
 
@@ -27,7 +35,13 @@ composer install
 php artisan key:generate
 ```
 
-## 5. Start the Laravel development server
+## 5. Generate the migration
+
+```bash
+php artisan migrate
+```
+
+## 6. Start the Laravel development server
 
 ```bash
 php artisan serve
@@ -39,7 +53,7 @@ The API will be available at:
 http://localhost:8000/api/loan/calculate
 ```
 
-## 6. Test the API
+## 7. Test the API
 
 Using `curl`:
 
