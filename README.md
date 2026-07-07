@@ -5,7 +5,7 @@ Follow the steps below to set up and run the project.
 ## 1. Clone the repository
 
 ```bash
-git clone emi-calculator
+git clone https://github.com/divyashinde16/emi-calculator.git
 cd emi-calculator
 ```
 
